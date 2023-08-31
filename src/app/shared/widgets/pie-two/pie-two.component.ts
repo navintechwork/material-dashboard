@@ -3,11 +3,11 @@ import * as Highcharts from 'highcharts';
 import HC_exporting from 'highcharts/modules/exporting';
 
 @Component({
-  selector: 'app-widget-pie',
-  templateUrl: './pie.component.html',
-  styleUrls: ['./pie.component.scss']
+  selector: 'app-widget-pie-two',
+  templateUrl: './pie-two.component.html',
+  styleUrls: ['./pie-two.component.scss']
 })
-export class PieComponent implements OnInit {
+export class PieTwoComponent implements OnInit {
 
   Highcharts = Highcharts;
   chartOptions = {};
@@ -25,7 +25,7 @@ export class PieComponent implements OnInit {
         type: 'pie'
       },
       title: {
-        text: 'Outcomes'
+        text: 'Risk Accepted By Fincrime Area'
       },
       legend: {
         layout: 'vertical',

@@ -8,11 +8,13 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import { MatSidenavModule, MatDividerModule, MatCardModule, MatPaginatorModule, MatTableModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { DashboardService } from 'src/app/modules/dashboard.service';
+import { DashboardRiskComponent } from 'src/app/modules/dashboard-risk/dashboard-risk.component';
 
 @NgModule({
   declarations: [
     DefaultComponent,
     DashboardComponent,
+    DashboardRiskComponent,
     PostsComponent
   ],
   imports: [
