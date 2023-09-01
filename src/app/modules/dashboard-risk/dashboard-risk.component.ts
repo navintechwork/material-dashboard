@@ -38,6 +38,8 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class DashboardRiskComponent implements OnInit {
 
+  //Variables
+
   bigChart = [];
   cards = [];
   pieChart = [];
